@@ -1,0 +1,43 @@
+.slide {
+    transform: scale(0.7);
+    transition: transform 300ms;
+    opacity: 1;
+  }
+  
+  .slideWrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .prevArrow {
+    position: absolute;
+    top: 40%;
+    left: 40px;
+    size: 10px;
+    
+    z-index: 100;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  
+  .nextArrow {
+    position: absolute;
+    top: 40%;
+    right: 60px;
+    z-index: 100;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  /* 
+  .prevArrow img,
+  .nextArrow img {
+    width: 4rem;
+  } */
+  a {
+    text-align: center;
+    font-size: xx-large!important;
+    margin: 0;
+    padding: 0;
+    line-height: 1!important;
+  }
